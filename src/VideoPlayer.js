@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import "./Css/VideoPlayer.css";
+import './Css/VideoPlayer.css'; 
 
 const formatTime = (s) => `${Math.floor(s / 60)}:${("0" + Math.floor(s % 60)).slice(-2)}`;
 
